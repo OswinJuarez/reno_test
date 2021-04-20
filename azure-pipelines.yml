@@ -20,5 +20,3 @@ steps:
     npm run build
     npm outdated
   displayName: 'npm install and build'
-
-- bash: node list
