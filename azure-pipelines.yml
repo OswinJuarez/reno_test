@@ -10,7 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- bash: node list
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
@@ -21,3 +20,5 @@ steps:
     npm run build
     npm outdated
   displayName: 'npm install and build'
+
+- bash: node list
