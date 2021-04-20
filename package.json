@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/OswinJuarez/reno_test#readme",
   "dependencies": {
-    "ansi-colors": "^4.0.0"
+    "ansi-colors": "^4.0.0",
+    "lodash": "^3.10.1"
   }
 }
